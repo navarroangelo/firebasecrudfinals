@@ -1,0 +1,75 @@
+student collection has the following fields:
+    std_id
+    first_name
+    last_name
+    department
+    course
+    year_level
+
+expected output:
+{
+std_id: 1001
+name: Christian Pradilla (first and last name merged)
+course: School of Computing - Computer Science (department and course merged)
+year: 1st Year
+}
+{
+std_id: 1002
+name: Carisma Caro (first and last name merged)
+course: School of Business and Accountancy - Accountancy (department and course merged)
+year: 2nd Year
+}
+{
+std_id: 1003
+name: Chris Almocera (first and last name merged)
+course: School of Nursing and Allied Medical Sciences - Nursing (department and course merged)
+year: 3rd Year
+}
+
+
+
+
+
+department collection has the following fields
+    dpt_id
+    name
+    courses
+    description
+
+expected output:
+{
+dpt_id:
+name: "school of computing"
+courses: ["networking", "computer-science", .....]
+description: "lorem lorem"
+}
+
+
+
+the school has 3 - 5 departments:
+- School of Business and Accountancy
+    - BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION
+    - BACHELOR OF SCIENCE IN ACCOUNTANCY
+    - BACHELOR OF SCIENCE IN INTERNAL AUDITING
+    - BACHELOR OF SCIENCE IN MANAGEMENT ACCOUNTING
+    - BACHELOR OF SCIENCE IN AVIATION MANAGEMENT
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore autem ex obcaecati sit vitae neque fuga corrupti. Id iste quia, iure reprehenderit laudantium impedit? Qui amet eum earum! Iste et sed architecto nam iusto quibusdam natus. Est vero obcaecati adipisci tempore accusantium aliquid reiciendis provident voluptas commodi! Nostrum debitis optio voluptatem aspernatur eius? Delectus non doloremque velit! Necessitatibus numquam labore blanditiis iure est doloremque explicabo enim dicta a, voluptates quo, excepturi, quisquam omnis odio perspiciatis soluta asperiores temporibus. Vitae placeat minus necessitatibus modi consequatur at dolor amet ut optio aperiam autem, quidem quas accusantium ab perferendis unde quia aspernatur maiores.
+- school of engineering and architecture
+    - BACHELOR OF SCIENCE IN AERONAUTICAL ENGINEERING
+    - BACHELOR OF SCIENCE IN ARCHITECTURE
+    - BACHELOR OF SCIENCE IN CIVIL ENGINEERING
+    - BACHELOR OF SCIENCE IN COMPUTER ENGINEERING
+    - BACHELOR OF SCIENCE IN ELECTRONICS COMMUNICATION ENGINEERING
+    - BACHELOR OF SCIENCE IN ELECTRICAL ENGINEERING
+    - BACHELOR OF SCIENCE IN INDUSTRIAL ENGINEERING
+    - BACHELOR OF SCIENCE IN MECHANICAL ENGINEERING
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore autem ex obcaecati sit vitae neque fuga corrupti. Id iste quia, iure reprehenderit laudantium impedit? Qui amet eum earum! Iste et sed architecto nam iusto quibusdam natus. Est vero obcaecati adipisci tempore accusantium aliquid reiciendis provident voluptas commodi! Nostrum debitis optio voluptatem aspernatur eius? Delectus non doloremque velit! Necessitatibus numquam labore blanditiis iure est doloremque explicabo enim dicta a, voluptates quo, excepturi, quisquam omnis odio perspiciatis soluta asperiores temporibus. Vitae placeat minus necessitatibus modi consequatur at dolor amet ut optio aperiam autem, quidem quas accusantium ab perferendis unde quia aspernatur maiores.
+= school of nursing and allied medical sciences
+    - BACHELOR OF SCIENCE IN NURSING
+    - BACHELOR OF SCIENCE IN RADIOLOGIC TECHNOLOGY
+    - BACHELOR OF SCIENCE IN MEDICAL TECHNOLOGY
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore autem ex obcaecati sit vitae neque fuga corrupti. Id iste quia, iure reprehenderit laudantium impedit? Qui amet eum earum! Iste et sed architecto nam iusto quibusdam natus. Est vero obcaecati adipisci tempore accusantium aliquid reiciendis provident voluptas commodi! Nostrum debitis optio voluptatem aspernatur eius? Delectus non doloremque velit! Necessitatibus numquam labore blanditiis iure est doloremque explicabo enim dicta a, voluptates quo, excepturi, quisquam omnis odio perspiciatis soluta asperiores temporibus. Vitae placeat minus necessitatibus modi consequatur at dolor amet ut optio aperiam autem, quidem quas accusantium ab perferendis unde quia aspernatur maiores.
+
+zipped project named using this format (navarromarcelangelo_wd301)
+exported postman collections
+    ready to run
